@@ -43,7 +43,47 @@ Includes logic-building problems and DOM-based challenges:
 
 ---
 
-## 📷 Screenshots
 
-> *You can add actual screenshots here using image links if hosted or uploaded:*
+## 📷 Screenshots
+# AI Summary for Articles – Chrome Extension
+
+**AI Summary for Articles** is a lightweight Chrome Extension that summarizes any article or webpage using Google's Gemini API. It extracts readable content, sends it to Gemini for summarization, and displays results directly in a user-friendly popup interface.
+
+---
+
+## 🔧 Features
+
+- ✨ Summarize any webpage in **Brief**, **Detailed**, or **Bullet Point** formats.
+- 📄 Extracts readable article content using content scripts and DOM parsing.
+- 🔐 Secure API key storage with `chrome.storage.sync` via options page.
+- 💡 Clean, responsive popup UI with summary type selection.
+- 📋 Copy-to-clipboard functionality.
+- 🔄 Background and content script communication.
+
+---
+
+## 🛠️ Tech Stack
+
+- JavaScript, HTML, CSS
+- Chrome Extension APIs
+- Google Gemini API (via MakerSuite key)
+
+---
+
+## 🚀 Installation
+
+1. Clone or download the repository.
+2. Open **Chrome** and navigate to `chrome://extensions`.
+3. Enable **Developer mode** (top-right).
+4. Click **Load unpacked** and select the extension folder.
+5. Click the extension icon → Set your Gemini API key via the options page.
+
+---
+
+## 📄 API Key
+
+Get your **Gemini API key** from:  
+👉 [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+
+
 
