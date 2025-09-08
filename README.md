@@ -1,89 +1,98 @@
-# 🧪 JavaScript Experiments
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+</p>
 
-This repository is a collection of my JavaScript-based mini projects and practice exercises. It includes hands-on experiments with web APIs, DOM manipulation, asynchronous JavaScript, and more. From fully functional apps like a Movie Search Engine and YouTube Clone to logic-building challenges and random quote generators — this repo is my playground for learning and building with JavaScript.
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
----
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## 🚀 Projects Included
+## Description
 
-### 🎬 Movie Search Engine
-A web app that fetches and displays movie data from the OMDB API. Features:
-- Search by movie title
-- Displays movie posters, ratings, and plot summaries
-- Error handling for invalid or empty searches
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-### 📺 YouTube Clone
-A clone of YouTube's UI built using HTML, CSS, and JavaScript with API integration.
-- Search functionality using YouTube Data API
-- Video thumbnails, titles, and channel display
-- Clean, responsive UI
+## Project setup
 
-### ✍️ Random Quote Generator
-Fetches and displays random quotes from a public API with the click of a button.
-- Uses Fetch API
-- Displays quote and author
-- Can be extended to include tweet/share functionality
+```bash
+$ npm install
+```
 
-### 🧠 JavaScript Practice Problems
-Includes logic-building problems and DOM-based challenges:
-- Palindrome checkers
-- Counter apps
-- Form validators
-- Array/object manipulation exercises
+## Compile and run the project
 
----
+```bash
+# development
+$ npm run start
 
-## 🛠️ Tech Stack
+# watch mode
+$ npm run start:dev
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6+)**
-- **Fetch API**
-- **Public APIs (OMDB, YouTube, Quotes)**
+# production mode
+$ npm run start:prod
+```
 
----
+## Run tests
 
+```bash
+# unit tests
+$ npm run test
 
-## 📷 Screenshots
-# AI Summary for Articles – Chrome Extension
+# e2e tests
+$ npm run test:e2e
 
-**AI Summary for Articles** is a lightweight Chrome Extension that summarizes any article or webpage using Google's Gemini API. It extracts readable content, sends it to Gemini for summarization, and displays results directly in a user-friendly popup interface.
+# test coverage
+$ npm run test:cov
+```
 
----
+## Deployment
 
-## 🔧 Features
+When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
 
-- ✨ Summarize any webpage in **Brief**, **Detailed**, or **Bullet Point** formats.
-- 📄 Extracts readable article content using content scripts and DOM parsing.
-- 🔐 Secure API key storage with `chrome.storage.sync` via options page.
-- 💡 Clean, responsive popup UI with summary type selection.
-- 📋 Copy-to-clipboard functionality.
-- 🔄 Background and content script communication.
+If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
 
----
+```bash
+$ npm install -g @nestjs/mau
+$ mau deploy
+```
 
-## 🛠️ Tech Stack
+With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
-- JavaScript, HTML, CSS
-- Chrome Extension APIs
-- Google Gemini API (via MakerSuite key)
+## Resources
 
----
+Check out a few resources that may come in handy when working with NestJS:
 
-## 🚀 Installation
+- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
+- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
+- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
+- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
+- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
+- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
+- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
+- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-1. Clone or download the repository.
-2. Open **Chrome** and navigate to `chrome://extensions`.
-3. Enable **Developer mode** (top-right).
-4. Click **Load unpacked** and select the extension folder.
-5. Click the extension icon → Set your Gemini API key via the options page.
+## Support
 
----
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## 📄 API Key
+## Stay in touch
 
-Get your **Gemini API key** from:  
-👉 [https://makersuite.google.com/app/apikey](https://makersuite.google.com/app/apikey)
+- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
 
+## License
 
-
+Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).

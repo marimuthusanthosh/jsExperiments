@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.10.2
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    ports:
+      - "9200:9200"
+
+  monstache:
+    image: rwynn/monstache:6.7.6
+    container_name: monstache
+    command: -f /config/monstache.config.toml
+    volumes:
+      - ./config:/config
+    depends_on:
+      - elasticsearch

@@ -1,0 +1,21 @@
+# MongoDB connection (pointing to your DB)
+mongo-url = "mongodb+srv://msanthoshhh:Rockmadhav123@cluster0.z7pts0d.mongodb.net/searchEngine"
+
+# Elasticsearch connection
+elasticsearch-urls = ["http://elasticsearch:9200"]
+
+# Sync this specific collection
+change-stream-namespaces = ["searchEngine.elasticsearchliveproducts"]
+
+# Make sure Monstache reads existing documents and keeps syncing new changes
+direct-read-namespaces = ["searchEngine.elasticsearchliveproducts"]
+
+# Optional but recommended
+namespace-regex = '^searchEngine\.elasticsearchliveproducts$'
+
+# Keep Elasticsearch index up to date with updates/deletes
+index-as-update = true
+index-oplog-time = true
+
+# Logging
+verbose = true
