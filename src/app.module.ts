@@ -9,7 +9,7 @@ import { ElasticsearchModule } from './elasticsearch/elasticsearch.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://msanthoshhh:Rockmadhav123@cluster0.z7pts0d.mongodb.net/searchEngine'),     
+    MongooseModule.forRoot('yourConnectionStringUrl'),     
     ProductModule,
     ElasticsearchModule
   ],
